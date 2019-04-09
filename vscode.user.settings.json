@@ -1,11 +1,17 @@
 {
+    // VSCode Env Settings
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Meslo LG M DZ for powerline",
+    "window.zoomLevel": 0,
     // Go User Setting
     "go.goroot": "/usr/local/Cellar/go/1.12.2/libexec",
     "go.toolsGopath": "/Users/cheyu0325/go",
     "go.inferGopath": true,
     "go.formatTool": "gofmt",
     "go.lintTool": "golint",
-    "go.gocodeAutoBuild": true,
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on"
+    },
+    // "go.gocodeAutoBuild": true,
     "go.autocompleteUnimportedPackages": true,
     "editor.formatOnSave": true
 }
