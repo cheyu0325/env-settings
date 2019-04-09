@@ -2,9 +2,12 @@
     // VSCode Env Settings
     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Meslo LG M DZ for powerline",
     "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
     // Go User Setting
     "go.goroot": "/usr/local/Cellar/go/1.12.2/libexec",
+    // "go.gopath": "${workspaceFolder}/Go-Practices",
     "go.toolsGopath": "/Users/cheyu0325/go",
+    // "go.toolsGopath": "${workspaceFolder}/Go-Practices",
     "go.inferGopath": true,
     "go.formatTool": "gofmt",
     "go.lintTool": "golint",
