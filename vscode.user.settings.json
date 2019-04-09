@@ -11,7 +11,6 @@
     "go.toolsEnvVars": {
         "GO111MODULE": "on"
     },
-    // "go.gocodeAutoBuild": true,
     "go.autocompleteUnimportedPackages": true,
     "editor.formatOnSave": true
 }
