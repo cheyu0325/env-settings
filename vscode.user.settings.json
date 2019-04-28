@@ -5,15 +5,19 @@
     "explorer.confirmDragAndDrop": false,
     // Go User Setting
     "go.goroot": "/usr/local/Cellar/go/1.12.2/libexec",
-    // "go.gopath": "${workspaceFolder}/Go-Practices",
+    "go.gopath": "${workspaceFolder}",
     "go.toolsGopath": "/Users/cheyu0325/go",
-    // "go.toolsGopath": "${workspaceFolder}/Go-Practices",
     "go.inferGopath": true,
     "go.formatTool": "gofmt",
     "go.lintTool": "golint",
     "go.toolsEnvVars": {
-        "GO111MODULE": "on"
+        "GO111MODULE": "off"
     },
+    "go.gocodePackageLookupMode": "go",
+    "go.gotoSymbol.includeImports": true,
     "go.autocompleteUnimportedPackages": true,
-    "editor.formatOnSave": true
+    "go.useCodeSnippetsOnFunctionSuggest": true,
+    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+    "editor.formatOnSave": true,
+    "go.useLanguageServer": true
 }
