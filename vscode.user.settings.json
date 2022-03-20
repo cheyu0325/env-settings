@@ -3,21 +3,12 @@
     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Meslo LG M DZ for powerline",
     "window.zoomLevel": 0,
     "explorer.confirmDragAndDrop": false,
-    // Go User Setting
-    "go.goroot": "/usr/local/Cellar/go/1.12.2/libexec",
-    "go.gopath": "${workspaceFolder}",
-    "go.toolsGopath": "/Users/cheyu0325/go",
-    "go.inferGopath": true,
-    "go.formatTool": "gofmt",
-    "go.lintTool": "golint",
-    "go.toolsEnvVars": {
-        "GO111MODULE": "off"
-    },
-    "go.gocodePackageLookupMode": "go",
-    "go.gotoSymbol.includeImports": true,
-    "go.autocompleteUnimportedPackages": true,
-    "go.useCodeSnippetsOnFunctionSuggest": true,
-    "go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
     "editor.formatOnSave": true,
-    "go.useLanguageServer": true
+    // go user setting with gvm
+    "go.formatTool": "goimports",
+    "go.lintTool": "golint",
+    "go.testTimeout": "30s",
+    "go.useLanguageServer": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.gotoSymbol.includeGoroot": true
 }
